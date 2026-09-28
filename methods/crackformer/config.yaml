@@ -1,0 +1,66 @@
+method:
+  name: crackformer
+  version: '1.0'
+model:
+  in_channels: 3
+  out_channels: 1
+  embed_dim: 64
+  depths:
+  - 2
+  - 2
+  - 6
+  - 2
+  num_heads:
+  - 2
+  - 4
+  - 8
+  - 16
+  window_size: 8
+  directional_kernel: 7
+  pretrained: true
+  img_size: 512
+data:
+  dataset_path: data/concrete400
+  image_folder: Image
+  mask_folder: Label
+  input_size:
+  - 512
+  - 512
+  split_file: data/concrete400/split_seed42.json
+augmentation:
+  horizontal_flip: 0.5
+  vertical_flip: 0.5
+  random_rotation: 0.25
+  rotation_angles:
+  - 90
+  - 180
+  - 270
+  random_crop_scale:
+  - 0.75
+  - 1.0
+  elastic_transform: 0.2
+  grid_distortion: 0.2
+training:
+  batch_size: 4
+  epochs: 100
+  optimizer: adamw
+  learning_rate: 0.0001
+  encoder_lr_scale: 0.1
+  weight_decay: 0.01
+  scheduler: cosine
+  warmup_epochs: 10
+  min_lr: 1.0e-06
+  gradient_clip: 1.0
+loss:
+  focal_weight: 1.0
+  dice_weight: 1.0
+  boundary_weight: 1.0
+  focal_alpha: 0.85
+  focal_gamma: 2.0
+  boundary_kernel: 3
+experiment:
+  seed: 42
+  output_dir: outputs/crackformer
+  save_every: 50
+  early_stopping_patience: 100
+  monitor_metric: val_iou

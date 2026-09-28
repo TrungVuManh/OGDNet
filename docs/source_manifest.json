@@ -1,0 +1,62 @@
+[
+  {
+    "file": "methods/convnext_unet/model.py",
+    "source": "Code_2/methods/convnext_unet/model.py",
+    "sha256": "c0b8893ccf396adbd8629e120266b87cbcd50d5e9d07266ec9740eacc9c0510b",
+    "status": "model implementation copied unchanged"
+  },
+  {
+    "file": "methods/crackformer/model.py",
+    "source": "Code_2/methods/crackformer/model.py",
+    "sha256": "b9030398bad6f9b4c8b3b4ca21a68a062eef186d842458fa9ca102c2602c6644",
+    "status": "model implementation copied unchanged"
+  },
+  {
+    "file": "methods/deeplabv3plus/model.py",
+    "source": "Code_2/methods/deeplabv3plus/model.py",
+    "sha256": "a8690f44a21bacb56139179d9183ed3db22c283d187b0ab465ba93321db6fa24",
+    "status": "model implementation copied unchanged"
+  },
+  {
+    "file": "methods/ogdnet/model.py",
+    "source": "Code_2/methods/ogdnet/model.py",
+    "sha256": "7b4f6876457c79f795335dd0868b0bf7066a7bb689188829d46b5851a664c90e",
+    "status": "model implementation copied unchanged"
+  },
+  {
+    "file": "methods/resnet/model.py",
+    "source": "Code_2/methods/resnet/model.py",
+    "sha256": "3f45ca055b851a7329cc96e5be008be211c478db3272e66bc5add9bbeee0c329",
+    "status": "model implementation copied unchanged"
+  },
+  {
+    "file": "methods/segformer/model.py",
+    "source": "Code_2/methods/segformer/model.py",
+    "sha256": "9af7e1f7b0a8c88f296e25e8d0a4a34d7ad5991752d96db9b7bcc8231a13b049",
+    "status": "model implementation copied unchanged"
+  },
+  {
+    "file": "methods/segnext/model.py",
+    "source": "Code_2/methods/segnext/model.py",
+    "sha256": "c9842564f50eb74d777c0291c582214efa898c2234b8268371338a4a3097b19a",
+    "status": "model implementation copied unchanged"
+  },
+  {
+    "file": "methods/swin_unet/model.py",
+    "source": "Code_2/methods/swin_unet/model.py",
+    "sha256": "63a105f9ba8af8d2b60be0a6839b07ee44c10b0ef526a2e8ad750e2b83c7d953",
+    "status": "model implementation copied unchanged"
+  },
+  {
+    "file": "methods/unet/model.py",
+    "source": "Code_2/methods/unet/model.py",
+    "sha256": "7bef1f09bf6db567ba9048d8e43b7eb3134d20f553f7c8863f28bd5477658245",
+    "status": "model implementation copied unchanged"
+  },
+  {
+    "file": "methods/upernet/model.py",
+    "source": "Code_2/methods/upernet/model.py",
+    "sha256": "ceb820659bb79a1eea8a356d7fa7986a81c8dab3755270488e74d5f493e28cc6",
+    "status": "model implementation copied unchanged"
+  }
+]

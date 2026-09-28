@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+# Keep model files byte-identical to the SHA-256 values in docs/source_manifest.json
+methods/*/model.py -text

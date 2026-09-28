@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite this repository and the version/commit used."
+type: software
+title: "OGDNet: Orientation-guided deformable convolution for concrete crack segmentation"
+authors:
+  - family-names: Nguyen
+    given-names: Ngoc Lan
+  - family-names: Vu
+    given-names: Manh Trung
+  - family-names: Nguyen
+    given-names: Nam Son
+  - family-names: Tran
+    given-names: Ngoc Hoa
+    orcid: "https://orcid.org/0009-0005-9255-3263"
+repository-code: "https://github.com/TrungVuManh/OGDNet"
+url: "https://github.com/TrungVuManh/OGDNet"
+license: MIT
+keywords:
+  - crack segmentation
+  - deformable convolution
+  - deep learning
+  - structural inspection
